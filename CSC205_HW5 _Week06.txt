@@ -1,0 +1,93 @@
+Name: Prem Chhay
+Class: CSC205
+
+Homework Number 5 Week 06
+
+Part I: Watch the video (link below) and complete as many subsections as you can. 
+Copy and paste your source code into one file (text or Word) for submission
+ C# Tutorial - Full Course for Beginners (4hr 31min)
+⌨️ (1:00:01) Getting User Input
+
+namespace CSC205HW5WK06
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Getting User Input
+            Console.WriteLine("Hello"); // Next output go to a new line
+            Console.Write("Enter your name: ");    // Next output stay on the same line
+            string name = Console.ReadLine();
+            Console.Write("Enter your age: ");
+            string age = Console.ReadLine();
+            Console.WriteLine("Hello " + name + " you are " + age);
+
+            Console.ReadLine();
+        }
+    }
+}
+
+⌨️ (1:07:38) Building a Calculator
+
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            // Building a Calculator
+            int num = Convert.ToInt32("45");    // Convert string into an integer -- only work with number only
+            //int num = Convert.ToInt32("56sadf");  // Will not work because is not number only
+            Console.WriteLine("43" + "56"); // Concatenate - output ast string 4356
+            Console.WriteLine(num + 6);
+
+            Console.Write("Enter a number: ");
+            double num1 = Convert.ToDouble(Console.ReadLine()); // Change int into double and convert ToDouble for decimal input
+            Console.Write("Enter another number: ");
+            double num2 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine(num1 + num2);
+
+            Console.ReadLine();
+        }
+    }
+
+⌨️ (1:15:26) Building a Mad Lib
+
+ public class Program
+ {
+     static void Main(string[] args)
+     {
+         // Building a Mad Lib
+         string color, pluralNoun, celebrity;
+
+         Console.Write("Enter a color: ");
+         color = Console.ReadLine();
+
+         Console.Write("Enter a plural noun: ");
+         pluralNoun = Console.ReadLine();
+
+         Console.Write("Enter a celebrity: ");
+         celebrity = Console.ReadLine();
+
+         Console.WriteLine("Roses are " + color);
+         Console.WriteLine(pluralNoun + " are blue");
+         Console.WriteLine("I Love " + celebrity);
+
+         Console.ReadLine();
+     }
+ }
+
+⌨️ (2:10:21) Building a Better Calculator
+⌨️ (2:17:22) Switch Statements
+⌨️ (3:05:31) 2d Arrays
+⌨️ (3:13:53) Exception Handling
+⌨️ (3:24:34) Classes & Objects
+⌨️ (3:37:39) Constructors
+⌨️ (3:47:48) Object Methods
+⌨️ (3:54:59) Getters & Setters
+⌨️ (4:06:49) Static Class Attributes
+⌨️ (4:14:45) Static Methods & Classes
+⌨️ (4:20:55) Inheritance
+
+Part II: This exercise is part of Microsoft .NET/C# tutorials:
+https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/classes
+https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop
